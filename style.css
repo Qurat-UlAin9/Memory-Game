@@ -13,8 +13,10 @@
 .tile {
     width: 60px;
     height: 60px;
-    background-color: greenyellow;
+    
     color: black;
+    
+    background-color: greenyellow;
     justify-content: center;
     align-items: center;
     font-size: 24px;
@@ -27,8 +29,10 @@
 }
 
 .image{
-    width: 40em;
     height: 30em;
-    border-radius: 80%;
+     width: 32em;
+    border-radius: 10px; 
+    justify-content: center;
+    align-items: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
