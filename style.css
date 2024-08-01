@@ -1,27 +1,25 @@
+
 .tile-container {
     display: grid;
     grid-template-columns: repeat(4, 100px);
     gap: 10px;
     justify-content: center;
-    background-color: rgb(73, 70, 70);
+    background-color: black;
     height: 30em;
     padding: 20px; 
-    border-radius: 10px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
 .tile {
     width: 60px;
-    height: 60px;
-    
-    color: black;
-    
+    height: 60px;    
+    color: black;    
     background-color: greenyellow;
-    justify-content: center;
-    align-items: center;
+    align-items: center;   
     font-size: 24px;
     cursor: pointer;
     border: 1px solid #ddd;
+    padding: auto;
 }
 
 .tile.flipped {

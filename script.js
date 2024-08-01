@@ -76,7 +76,7 @@ function checkMatch() {
     flippedIndices = [];
 
     if (matchedTiles === emojis.length) {
-        setTimeout(function() { alert('Congratulations! You matched all tiles!'); }, 300);
+        setTimeout(function() {alert('Congratulations! You matched all tiles!'); }, 300);
     }
 }
 
